@@ -1,5 +1,6 @@
 package Exercicio11;
 
+import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -54,6 +55,7 @@ public class VetorProduto {
             }
         }
 
+        System.out.println();
         System.out.println("Produto mais caro é " +  nome +  " valor = R$ " + maior);
 
 
